@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9110D937-EA6F-45DA-8396-549DA0F2F2DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CSC418Assignment1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A8BF78815E6360809030F789B92239172E50C41</key>
+		<string>https://github.com/ZeyuWilliamFan/CSC418_Computer-Graphics.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CSC418Assignment1/CSC418Assignment1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A8BF78815E6360809030F789B92239172E50C41</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ZeyuWilliamFan/CSC418_Computer-Graphics.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A8BF78815E6360809030F789B92239172E50C41</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A8BF78815E6360809030F789B92239172E50C41</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CSC418_Computer-Graphics</string>
+		</dict>
+	</array>
+</dict>
+</plist>
