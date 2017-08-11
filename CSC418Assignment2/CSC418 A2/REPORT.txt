@@ -1,0 +1,58 @@
+3D penguin design
+There are six different 3D shapes implemented to construct the penguin. They are,
+void drawBody();
+void drawArm();
+void drawLeg();
+void drawFoot();
+void drawHead();
+void drawBeak();
+
+And a couple of helping functions are used to help drawing the trapezoid and triangle shape of the penguin
+body parts. The draw trapezoid function is implemented with calculating all the 8 vertices point and the
+corresponding normal vectors.
+
+Just like assignment 1, all the parts are drawn in a sequential order in : body, leg, foot, arm, head, beak.
+The order actually matters a lot since that the sub-parts could rotate/translate rightly with the relative
+coordinate system, instead of the centre of the window coordinate system.
+
+The drawing of the body parts can be simply compleyed using the following steps:
+- scale to appropriate size (actually the scaling only affects the arm-scale.)
+- translate to the pivot location
+- set rotate or translate for animation
+- translate to the final drawing location
+- draw the shape
+
+Also, in order to make the rotation of the penguin appear more naturally, the MAX and MIN values of the angles
+have been changed to a more reasonable value.
+Also, I want to point out that my roll/yaw/pitch may work differently from others.
+
+Roll: rotate around X axis, to make the arm “flap”.
+Yaw:   rotate around y axis, so the arm could spin.
+Pitch：  rotate around z axis, so the arm could swing back and forward.
+
+Rendering metallic and matte penguin:
+There are 5 rendering styles (wireframe, solid, outlined, metallic, matte), I used the glPolygonMode to switch
+between wireframe and solid, and by adding an offset, I could display the outlined solid mode as well.
+
+The tricky part is the matte and the metallic part, as we need to set the lightening and find a resonable value
+for the matte and metal materials. Matte should be like unshiny and dull, while the shiny metal should be able
+to reflect more lightening.
+
+The difference is implemented by adjusting paramaters of the following
+
+ambient[]
+diffuse[]
+specular[]
+shininess
+
+Light source control:
+There is a frame light_xy that can be adjusted to control the light position on the xy-plane.
+Light control is added to the joint control pannel.
+
+Update keyframe function:
+This part is relative simple, since most of the functions are implemented fully and thus we only need to add a
+very few lines of code to make it work properly.
+
+Keyframe.text:
+I generated a simple keyframe file with 4 keyframes settings. The penguin can walk left, shake its head and flap the fin by animating this keyframe file.
+
